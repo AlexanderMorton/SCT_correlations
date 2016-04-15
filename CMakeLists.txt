@@ -42,7 +42,7 @@ LIST( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake )
 add_subdirectory(sct_plot)
 
 add_subdirectory(main)
-option(Build_FitScurve "compiles the program which fits does the sCurve fits. it depends on the landau gaus library" ON)
+option(Build_FitScurve "compiles the program which fits does the sCurve fits. it depends on the landau gaus library" OFF)
 IF(Build_FitScurve)
   add_subdirectory(FitSCurves_bin)
 ENDIF()
