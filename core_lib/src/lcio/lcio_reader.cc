@@ -247,7 +247,7 @@ ProcessorCollection* lcio_reader::getProcessorCollection()
   return nullptr;
 }
 
-xy_plane lcio_reader::getPlane(const collectionName_t& CollectionName, int planeID)
+xy_plane lcio_reader::getPlane(const collectionName_t& CollectionName, ID_t planeID)
 {
   return xy_plane();
 }
