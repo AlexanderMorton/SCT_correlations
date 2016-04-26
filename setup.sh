@@ -14,7 +14,7 @@
 #export CXX=/afs/cern.ch/sw/lcg/contrib/gcc/4.7.2/x86_64-slc6/bin/g++
 #export C=/afs/cern.ch/sw/lcg/contrib/gcc/4.7.2/x86_64-slc6/bin/g++
 source /afs/cern.ch/sw/lcg/app/releases/ROOT/5.34.26/x86_64-slc6-gcc48-opt/root/bin/thisroot.sh
-export LD_LIBRARY_PATH=$pwd/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$PWD/lib:$LD_LIBRARY_PATH
 source /afs/cern.ch/sw/lcg/contrib/gcc/4.6.2/x86_64-slc6/setup.sh
 
 #setupATLAS 
