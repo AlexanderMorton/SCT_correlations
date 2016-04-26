@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunCollection>
+  <globalConfig>
+    <CollectionName value="DEVICE_2_ASIC_on_Position_5_400V" />
+    <NumberOfBins value="400" />
+    <NumberOfStrips value="400" />
+     <YCut min="46" max="51" />
+     <XCut min="-666" max="99999" />
+    <Device value="1" />
+    <AvtiveStrips min="30" max="110" />
+    <Rotation value="0.0" />
+    <Position name="position 5" value="-608.0" />
+    <residual_cut value="5" />
+    <gearFile name="/afs/cern.ch/user/a/amorton/sct_analysis/data/gear.xml" />
+    <TrueHitExtractor name="MAY15"/>
+    <FitterFileType name="MAY15"/>
+    <DUT2TrackCorrelator name="MAY15"/>
+  </globalConfig>
+  <fileList>
+<file><name value="run001052_fitter.root"/><threshold value="50"/><runNumber value="703"/><HV value="350"/>	</file>  
+
+  </fileList>
+</RunCollection>
